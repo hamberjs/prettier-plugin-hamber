@@ -1,0 +1,46 @@
+{
+    "name": "prettier-plugin-hamber",
+    "version": "2.8.0",
+    "description": "Hamber plugin for prettier",
+    "main": "plugin.js",
+    "files": [
+        "plugin.js",
+        "plugin.js.map"
+    ],
+    "scripts": {
+        "build": "rollup -c",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hamberjs/prettier-plugin-hamber.git"
+    },
+    "keywords": [
+        "prettier",
+        "hamber"
+    ],
+    "author": "NKDuy",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hamberjs/prettier-plugin-hamber/issues"
+    },
+    "homepage": "https://github.com/hamberjs/prettier-plugin-hamber#readme",
+    "devDependencies": {
+        "@prettier/plugin-pug": "^1.16.0",
+        "@rollup/plugin-commonjs": "14.0.0",
+        "@rollup/plugin-node-resolve": "11.0.1",
+        "@types/node": "^10.12.18",
+        "@types/prettier": "^2.4.1",
+        "hamber": "^3.49.0",
+        "prettier": "^2.7.1",
+        "rollup": "2.36.0",
+        "rollup-plugin-typescript": "1.0.1",
+        "ts-node": "^9.1.1",
+        "tslib": "^2.0.3",
+        "typescript": "4.1.3"
+    },
+    "peerDependencies": {
+        "hamber": "^3.2.0",
+        "prettier": "^1.16.4 || ^2.0.0"
+    }
+}
